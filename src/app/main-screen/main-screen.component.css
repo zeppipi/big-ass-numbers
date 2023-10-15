@@ -1,0 +1,24 @@
+.header {
+    margin-bottom: 1em;
+}
+
+.header-text {
+    font-size: 4em;
+}
+
+.body-text {
+    font-size: 1.5em;
+}
+
+.container {
+    width: 80%;
+    padding: 1em;
+}
+
+.content-container {
+    margin-bottom: 3em;
+}
+
+.content {
+    color: var(--Main-text-color);
+}

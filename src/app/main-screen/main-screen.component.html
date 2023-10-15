@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="header">
+        <h1 class="header-text content">Main Screen</h1>
+    </div>
+    <div class="body">
+        <div class="content-container">
+            <p class="body-text content">Input big ass number here</p>
+            <input class="input-box input" type="text" placeholder="Enter Number" [(ngModel)]="inputBox" (ngModelChange)="onChange($event, 'inputBox')" inputmode="numeric" [appOnlyNumberInput]=true>
+            <p class="body-text content">Input digit limit here</p>
+            <input class="input-box input" type="number" placeholder={{limit}} [(ngModel)]="limitBox" (ngModelChange)="onChange($event, 'limitBox')">
+        </div>
+
+        <p class="body-text content">Output result</p>
+        <p class="output content">{{outputBAN}}</p>
+    </div>
+</div>
+

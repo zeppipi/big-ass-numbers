@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --Main-BG-color: rgb(71, 69, 88);
+    --Main-text-color: rgb(240, 215, 240);
+}
+
+* {
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: var(--Main-BG-color);
+}  
+
